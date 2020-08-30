@@ -89,7 +89,7 @@ img {
 <section id="urlbox">
 <h1>Browse with the Short url</h1>
 <div class="input-group mb-3">
-<input type="text" class="form-control" value="http://localhost:8080/URL-Shortner/op/<?php echo $id;?>" id="short-url">
+<input type="text" class="form-control" value="http://localhost:8080/URL-Shortner/op.php?id=<?php echo $id;?>" id="short-url">
 <button class="btn btn-primary" onclick="myFunction()">Copy URL</button>
 </div>
 </section>
